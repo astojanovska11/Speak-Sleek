@@ -97,10 +97,6 @@ public class SimpleIME extends InputMethodService
     }
 
     private String preprocessText(String text) {
-        // Implement your preprocessing steps here
-        // For example: tokenization, lowercasing, removing punctuation, etc.
-        // Return the preprocessed text
-        // Create an empty annotation
         Annotation document = new Annotation(text);
 
         // Annotate the text using the Stanford NLP pipeline
@@ -132,10 +128,7 @@ public class SimpleIME extends InputMethodService
     }
 
     private String generateFormalConversion(String preprocessedText) {
-        // Replace this with your model inference code
-        // Generate and return the formal conversion suggestion
-        // You may need to use the loaded weka model for this purpose
-        return preprocessedText; // Placeholder return value
+        return preprocessedText; 
     }
     private String convertToFormal(String informalText) {
         // Create an empty annotation

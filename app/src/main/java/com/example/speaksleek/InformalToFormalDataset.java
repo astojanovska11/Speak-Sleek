@@ -39,9 +39,6 @@ public class InformalToFormalDataset {
         addPair("I'm broke.", "I have no money at the moment.");
         addPair("I'm so hungry.", "I'm feeling quite famished.");
         addPair("I'm really sorry.", "I sincerely apologize.");
-
-
-        // Add more pairs as needed
     }
 
     public void addPair(String informal, String formal) {

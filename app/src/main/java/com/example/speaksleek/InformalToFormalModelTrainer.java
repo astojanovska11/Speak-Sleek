@@ -113,15 +113,9 @@ public class InformalToFormalModelTrainer {
         }
     }
 
-    private String mapPredictionToFormalConversion(double prediction) {
-        // Define a mapping from model predictions to formal conversions
-        // You need to specify how your model's output corresponds to formal text
-        // For example, you might have a list of classes or categories for formal text
-        // and map the model's prediction to one of these categories.
-        // Return the corresponding formal conversion.
-        // This mapping depends on your specific Weka model and problem domain.
-        return "Formal conversion"; // Placeholder return value
-    }
+    //private String mapPredictionToFormalConversion(double prediction) {
+        //return "Formal conversion"; 
+    //}
 }
 
 
