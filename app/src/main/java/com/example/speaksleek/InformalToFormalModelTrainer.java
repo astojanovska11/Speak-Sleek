@@ -83,7 +83,7 @@ public class InformalToFormalModelTrainer {
 
     private String generateFormalConversion(String preprocessedText) {
         try {
-            // Load your trained Weka model (replace "modelPath" with your model's file path)
+            // Load your trained Weka model 
             MultilayerPerceptron model = (MultilayerPerceptron) weka.core.SerializationHelper.read("modelPath");
 
             // Create an attribute for the input text (assuming the attribute name is "text")
